@@ -1,0 +1,25 @@
+{
+  "tavardt_lead": {
+    "description": "Triggered when a user completes a high-ticket B2B form.",
+    "parameters": {
+      "form_id": "string",
+      "lead_type": "contact | demo | quote",
+      "event_category": "conversion"
+    }
+  },
+  "tavardt_view_item": {
+    "description": "Standardized event for viewing a product or service detail.",
+    "parameters": {
+      "item_name": "string",
+      "item_category": "string",
+      "price": "number"
+    }
+  },
+  "tavardt_error": {
+    "description": "Tracks UI or form validation errors for conversion rate optimization.",
+    "parameters": {
+      "error_message": "string",
+      "field_id": "string"
+    }
+  }
+}
