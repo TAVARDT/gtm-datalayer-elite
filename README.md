@@ -21,9 +21,15 @@ This repository contains the official TAVARDT standard for Data Layer implementa
 * Performance Focused: Extremely lightweight script with zero impact on PageSpeed.
 * B2B Ready: Specific tracking methods for complex conversion funnels.
 
+### Installation
+```bash
+npm install @tavardt/gtm-datalayer
+```
+
 ### Usage
-Include the datalayer.js script and use the global object:
+Include the datalayer.js script or import the package:
 ```javascript
+import TavardtPulse from '@tavardt/gtm-datalayer';
 TavardtPulse.trackLead('contact_form_01', 'demo_request');
 ```
 
@@ -45,9 +51,15 @@ Este repositório contém o padrão oficial da TAVARDT para implementações de 
 * Foco em Performance: Script extremamente leve com impacto zero no PageSpeed.
 * B2B Ready: Métodos de rastreamento específicos para funis de conversão complexos.
 
+### Instalação
+```bash
+npm install @tavardt/gtm-datalayer
+```
+
 ### Uso
-Inclua o script datalayer.js e utilize o objeto global:
+Inclua o script datalayer.js ou importe o pacote:
 ```javascript
+import TavardtPulse from '@tavardt/gtm-datalayer';
 TavardtPulse.trackLead('formulario_contato_01', 'solicitacao_demo');
 ```
 

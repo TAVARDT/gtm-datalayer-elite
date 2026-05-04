@@ -1,0 +1,19 @@
+{
+  "name": "@tavardt/gtm-datalayer",
+  "version": "1.0.0",
+  "description": "Elite GTM DataLayer utility for high-performance marketing analytics. TAVARDT Agency.",
+  "main": "datalayer.js",
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/TAVARDT/gtm-datalayer-elite.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": ["gtm", "datalayer", "analytics", "tavardt", "elite", "tracking"],
+  "author": "TAVARDT Agency",
+  "license": "MIT"
+}
